@@ -1,7 +1,7 @@
 
 ### FCC course: timestamp
 
-1.Pass a string as a parameter, it returns both the Unix timestamp and the natural language form of that date or null.
+> Pass a string as a parameter, it returns both the Unix timestamp and the natural language form of that date or null.
 
 
 ### Example
