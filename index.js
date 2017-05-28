@@ -14,7 +14,8 @@ app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 // app.use(multer()); // for parsing multipart/form-data
 
-app.set('port', 8080);
+// app.set('port', 8080);
+app.set('port', (process.env.PORT || 5000));
 
 app.listen(app.get('port'), function() {
 	console.log('server is running', app.get('port'))
